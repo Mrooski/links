@@ -1,14 +1,37 @@
+My link in bio
 <head>
   <style>
-    
+
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+
     body {
       padding-top: 40px;
       padding-bottom: 40px;
       background-color: #0f0e17;
+      display: flex;
+      justify-content: center;
     }
 
     .name {
       color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
     }
 
     .social-icons a {
@@ -18,11 +41,21 @@
 
     .link {
       background-color:#e53170;
+      display: flex;
+      align-items: center;
+      padding: 5px;
     }
 
     .link a {
       color: black;
       text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
     }
 
     .banner-image {
@@ -43,43 +76,46 @@
 </head>
 
 <body>
-  <div class="banner">
-    <img src="https://images.unsplash.com/photo-1673153597256-73782d5ae55a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" alt="viper engine" class="banner-image">
-  </div>
+  <div class="items">
 
-  <div class="name">
-    Miles Wascher
-  </div>
+    <div class="banner">
+      <img src="https://images.unsplash.com/photo-1673153597256-73782d5ae55a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" alt="viper engine" class="banner-image">
+    </div>
 
-  <div class="social-icons">
-    <a href="https://github.com/Mrooski/" target="_blank">
-      GitHub
-    </a>
+    <div class="name">
+      Miles Wascher
+    </div>
 
-    <a href="https://www.linkedin.com/in/mileswascher/" target="_blank">
-      LinkedIn
-    </a>
-  </div>
+    <div class="social-icons">
+      <a href="https://github.com/Mrooski/" target="_blank">
+        GitHub
+      </a>
 
-  <div class="link">
-    <img
-      src="http://images.clipartpanda.com/cross-clipart-cross_black.png" class="thumbnail">
+      <a href="https://www.linkedin.com/in/mileswascher/" target="_blank">
+        LinkedIn
+      </a>
+    </div>
 
-    <a target="_blank" href="https://www.biblegateway.com/passage/?search=romans%208&version=AMPC">Romans Chapter 8</a>
-  </div>
+    <div class="link">
+      <img
+        src="http://images.clipartpanda.com/cross-clipart-cross_black.png" class="thumbnail">
+
+      <a target="_blank" href="https://www.biblegateway.com/passage/?search=romans%208&version=AMPC">Romans Chapter 8</a>
+    </div>
+    
+    <div class="link">
+      <img
+        src="https://fee.org/media/33943/i-pencil-1800.png?anchor=center&mode=crop&width=1920&rnd=132018058280000000" class="thumbnail">
+
+      <a target="_blank" href="https://cdn.mises.org/I%20Pencil.pdf">I, Pencil - Leonard E. Read</a>
+    </div>
+
+    <div class="link">
+      <img
+        src="https://logodownload.org/wp-content/uploads/2017/06/bitcoin-logo-1-1.png" class="thumbnail">
+
+      <a target="_blank" href="https://bitcoin.org/bitcoin.pdf">Bitcoin White Paper</a>
+    </div>
   
-  <div class="link">
-    <img
-      src="https://fee.org/media/33943/i-pencil-1800.png?anchor=center&mode=crop&width=1920&rnd=132018058280000000" class="thumbnail">
-
-    <a target="_blank" href="https://cdn.mises.org/I%20Pencil.pdf">I, Pencil - Leonard E. Read</a>
   </div>
-
-  <div class="link">
-    <img
-      src="https://logodownload.org/wp-content/uploads/2017/06/bitcoin-logo-1-1.png" class="thumbnail">
-
-    <a target="_blank" href="https://bitcoin.org/bitcoin.pdf">Bitcoin White Paper</a>
-  </div>
-
 </body>
